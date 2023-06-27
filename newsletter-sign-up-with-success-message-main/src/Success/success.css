@@ -1,0 +1,51 @@
+body {
+  background-color: hsl(235, 18%, 26%);
+}
+
+section {
+  background-color: white;
+  color: hsl(234, 29%, 20%);
+  padding: 40px;
+  width: 350px;
+  display: flex;
+  justify-content: baseline;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px 4px hsla(0, 0%, 0%, 0.144);
+}
+
+h1 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.check {
+  width: 50px;
+}
+
+button:hover {
+  box-shadow: 0px 5px 15px 2px #ff6257b7;
+  background: linear-gradient(to left,
+  #ff8342, #ff6257,#ff416d);
+}
+
+@media (max-width: 575px) {
+  body {
+    background-color: white;
+  }
+  section {
+    width: 80%;
+    border-radius: 0px;
+    box-shadow: none;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    padding-left: 40px;
+  }
+}
